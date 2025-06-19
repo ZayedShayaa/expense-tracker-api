@@ -17,7 +17,7 @@ A RESTful API for managing personal expenses, with file uploads, email notificat
 ### 1. Install dependencies
 
 ```bash
-npm install
+npm install-y
 npm install --save-dev sequelize-cli
 npm install joi
 ```
