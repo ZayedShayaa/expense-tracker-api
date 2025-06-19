@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "chatapp",
+    "database": "expense_tracker",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "chatapp",
+    "database": "expense_tracker",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "chatapp",
+    "database": "expense_tracker_prod",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
