@@ -16,20 +16,17 @@ A RESTful API for managing personal expenses, with file uploads, email notificat
 
 ### 1. Install dependencies
 
-````bash
-# Project dependencies
-npm install express pg sequelize bcrypt jsonwebtoken multer bull cors dotenv moment ioredis nodemailer joi json2csv morgan helmet amqplib sharp csv-writer
-
-# Dev dependencies
-npm install --save-dev jest supertest nodemon sequelize-cli joi
-
-
+```bash
+npm install
+npm install --save-dev sequelize-cli
+npm install joi
+```
 
 ### 2. Initialize Sequelize project
 
 ```bash
 npx sequelize-cli init
-````
+```
 
 Creates: `models/`, `migrations/`, `seeders/`, `config/config.json`
 
