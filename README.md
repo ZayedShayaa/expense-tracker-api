@@ -245,7 +245,10 @@ docker-compose up --build
 - Express.js for REST API
 - JWT-based authentication
 - Bull + Redis for background jobs (file/email)
-- Directory structure organized by domain (controllers, services, jobs, routes, etc)
+- File upload via multer, email via nodemailer
+- Followed **MVC pattern** (Models, Views, Controllers)
+- Applied **Repository-Service pattern** for separation of business logic and data access
+- Directory structure organized by domain (controllers, services, jobs, routes, utils, etc)
 
 ### Tradeoffs
 
